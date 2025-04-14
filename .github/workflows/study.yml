@@ -48,5 +48,5 @@ jobs:
 
       - name: print-directory
         run: |
-          ls front
-          ls back/src/main/resources
+          ls -a front
+          ls -a back/src/main/resources
